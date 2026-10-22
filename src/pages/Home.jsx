@@ -5,7 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Home = () => {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-linear-to-b from-indigo-900 via-slate-800 to-slate-900 text-white">
+        <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 
+        bg-gradient-to-b from-indigo-900 via-slate-600 to-slate-900 text-white">
             <motion.img
                 src={me}
                 alt="Gokul Shrestha"
@@ -28,21 +29,23 @@ const Home = () => {
                 <a href="#contact" className="rounded-full bg-neutral-900 px-6 py-3 font-medium hover:bg-neutral-800">
                     Contact me →
                 </a>
-                <a href="/resume.pdf" className="rounded-full bg-white/10 px-6 py-3 font-medium hover:bg-white/20">
+                <a href="/CV_Gokul.pdf" target="_blank" rel="noreferrer" className="rounded-full bg-white/10 px-6 py-3 font-medium hover:bg-white/20">
                     Download CV
                 </a>
                 <a
                     href="https://github.com/kailashshrestha3"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="GitHub Profile"
                     className="rounded-full bg-white/10 px-4 py-3 hover:bg-white/20"
                 >
                     <FaGithub />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/kailashshrestha3/"
+                    href="https://www.linkedin.com/in/gokul-shrestha-008169303/"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="LinkedIn Profile"
                     className="rounded-full bg-white/10 px-4 py-3 hover:bg-white/20"
                 >
                     <FaLinkedin />
