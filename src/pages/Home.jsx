@@ -29,7 +29,7 @@ const Home = () => {
                 <a href="#contact" className="rounded-full bg-neutral-900 px-6 py-3 font-medium hover:bg-neutral-800">
                     Contact me →
                 </a>
-                <a href="/CV_Gokul.pdf" target="_blank" rel="noreferrer" className="rounded-full bg-white/10 px-6 py-3 font-medium hover:bg-white/20">
+                <a href="/Gokul_CV.pdf" target="_blank" rel="noreferrer" className="rounded-full bg-white/10 px-6 py-3 font-medium hover:bg-white/20">
                     Download CV
                 </a>
                 <a
